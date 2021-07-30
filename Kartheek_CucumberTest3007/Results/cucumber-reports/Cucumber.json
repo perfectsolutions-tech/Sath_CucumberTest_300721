@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "To Requesting for an application",
+        "description": "",
+        "id": "requesting-for-an-application;to-requesting-for-an-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20033869100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is launched and user is logged in and navigated to application page",
+            "match": {
+              "location": "StepDefinition.browser_is_launched_and_user_is_logged_in_and_navigated_to_application_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11146221300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clciks on Request access and search for:\"7Geese\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7Geese",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinition.user_clciks_on_Request_access_and_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 624341200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validation for Search details of the \"7Geese\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7Geese",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinition.user_validation_for_Search_details_of_the_application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 282750200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on plus icon and validate deatails of added cart \"7Geese\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7Geese",
+                  "offset": 62
+                }
+              ],
+              "location": "StepDefinition.user_clicks_on_plus_icon_and_validate_deatails_of_added_cart_application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12037708900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user reaches the check out page and validate the details of the application for check out",
+            "match": {
+              "location": "StepDefinition.user_reaches_the_check_out_page_and_validate_the_details_of_the_application_for_check_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Requesting for an application",
+    "description": "",
+    "id": "requesting-for-an-application",
+    "keyword": "Feature",
+    "uri": "IDHub.feature"
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="44.124891">
+<testcase classname="Requesting for an application" name="To Requesting for an application" time="44.124891">
+<system-out><![CDATA[Given Browser is launched and user is logged in and navigated to application page.passed
+When user clciks on Request access and search for:"7Geese"..................passed
+Then user validation for Search details of the "7Geese".....................passed
+Then user clicks on plus icon and validate deatails of added cart "7Geese"..passed
+Then user reaches the check out page and validate the details of the application for check out.passed
+]]></system-out>
+</testcase>
+</testsuite>
